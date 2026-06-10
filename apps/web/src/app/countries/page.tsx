@@ -27,7 +27,7 @@ export default async function CountriesPage({
       <div>
         <h1 className="text-2xl font-bold text-slate-900">Country Coverage</h1>
         <p className="mt-2 text-slate-600">
-          Countries where Pizdit? has election data adapters.
+          Countries where Pizdit has election data adapters.
         </p>
       </div>
 

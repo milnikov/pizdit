@@ -2,7 +2,7 @@
 
 ## Overview
 
-Pizdit? is a pnpm + Turborepo monorepo with two Next.js apps and shared packages.
+Pizdit is a pnpm + Turborepo monorepo with two Next.js apps and shared packages.
 
 ```
 apps/web      — Public voter-facing app (no auth)

@@ -47,7 +47,7 @@ export default function HomePage() {
     <div className="flex flex-col gap-8">
       <div className="text-center">
         <h1 className="text-4xl font-bold tracking-tight text-slate-900">
-          Pizdit?
+          Pizdit
         </h1>
         <p className="mt-3 text-lg text-slate-600">
           Check what politicians are saying before you vote.

@@ -24,7 +24,7 @@ export function VerdictBadge({
         className,
       )}
     >
-      Pizdit? {VERDICT_LABELS[verdict]}
+      Pizdit {VERDICT_LABELS[verdict]}
     </span>
   );
 }

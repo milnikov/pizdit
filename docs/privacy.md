@@ -1,6 +1,6 @@
 # Privacy
 
-Pizdit? collects as little user data as possible.
+Pizdit collects as little user data as possible.
 
 ## Rules
 

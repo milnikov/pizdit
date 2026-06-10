@@ -40,7 +40,7 @@ export default function LoginPage() {
         className="w-full max-w-sm rounded-xl border border-slate-200 bg-white p-8 shadow-sm"
       >
         <h1 className="text-xl font-bold">Admin Login</h1>
-        <p className="mt-1 text-sm text-slate-500">Pizdit? administration</p>
+        <p className="mt-1 text-sm text-slate-500">Pizdit administration</p>
 
         <div className="mt-6 flex flex-col gap-4">
           <input

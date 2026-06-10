@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Pizdit? Admin",
-  description: "Admin panel for Pizdit? civic-tech platform",
+  title: "Pizdit Admin",
+  description: "Admin panel for Pizdit civic-tech platform",
 };
 
 export default function RootLayout({

@@ -1,8 +1,8 @@
-# Contributing to Pizdit?
+# Contributing to Pizdit
 
-Thank you for your interest in contributing to Pizdit?
+Thank you for your interest in contributing to Pizdit
 
-Pizdit? is an open-source civic-tech project for evidence-based political claim analysis.
+Pizdit is an open-source civic-tech project for evidence-based political claim analysis.
 
 ## Project Values
 

@@ -1,6 +1,6 @@
 # Methodology
 
-Pizdit? uses a transparent, open-source methodology for political claim analysis.
+Pizdit uses a transparent, open-source methodology for political claim analysis.
 
 See the `methodology/` directory:
 

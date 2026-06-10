@@ -1,6 +1,6 @@
-# Pizdit?
+# Pizdit
 
-Pizdit? is an open-source civic-tech project that helps voters understand what politicians are saying before election day.
+Pizdit is an open-source civic-tech project that helps voters understand what politicians are saying before election day.
 
 The product shows upcoming elections based on a user's address, lists candidates or parties on the ballot, and provides evidence-based analysis of political claims, promises, and public statements.
 
@@ -71,4 +71,4 @@ MIT — see [LICENSE](LICENSE)
 
 ## Disclaimer
 
-Pizdit? is a civic information tool. It does not provide legal advice, voting instructions, or official election information. Always verify official election dates and polling locations through election authorities.
+Pizdit is a civic information tool. It does not provide legal advice, voting instructions, or official election information. Always verify official election dates and polling locations through election authorities.

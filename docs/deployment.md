@@ -43,6 +43,11 @@ supabase link --project-ref <your-ref>
 supabase db push
 ```
 
-## Local development note
+## Local development
 
-Clone the repo to a path **without special characters** (e.g. `pizdit` not `Pizdit?`). The `?` in a folder name can break Next.js builds.
+```bash
+git clone https://github.com/milnikov/pizdit.git
+cd pizdit
+pnpm install
+pnpm dev
+```

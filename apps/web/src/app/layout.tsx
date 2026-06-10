@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Pizdit? — Check what politicians are saying",
+  title: "Pizdit — Check what politicians are saying",
   description:
     "Evidence-based political claim analysis. See what is on your ballot before you vote.",
 };
@@ -19,7 +19,7 @@ export default function RootLayout({
         <header className="border-b border-slate-200 bg-white">
           <div className="mx-auto flex max-w-3xl items-center justify-between px-4 py-4">
             <Link href="/" className="text-xl font-bold text-slate-900">
-              Pizdit?
+              Pizdit
             </Link>
             <nav className="flex gap-4 text-sm">
               <Link href="/countries" className="text-slate-600 hover:text-slate-900">

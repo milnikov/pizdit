@@ -18,7 +18,7 @@ export default function DashboardLayout({
   return (
     <div className="flex min-h-screen">
       <aside className="w-56 border-r border-slate-200 bg-white p-4">
-        <h1 className="mb-6 text-lg font-bold">Pizdit? Admin</h1>
+        <h1 className="mb-6 text-lg font-bold">Pizdit Admin</h1>
         <nav className="flex flex-col gap-1">
           {NAV.map((item) => (
             <Link
