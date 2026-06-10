@@ -1,10 +1,10 @@
-# Human Review Rules
+# AI Recheck Rules
 
-**Status: Post-MVP.** Schema exists but UI workflow is not implemented in MVP.
+**Status: Post-MVP.** This escalation workflow is queued for the next iteration.
 
 ## Triggers
 
-A claim must be sent to human review if:
+A claim must be sent to a new AI recheck cycle if:
 
 - Research Agent A and B strongly disagree
 - Evidence is weak or unavailable
@@ -19,4 +19,4 @@ A claim must be sent to human review if:
 
 ## MVP Behavior
 
-Claims with `NEEDS_HUMAN_REVIEW` status are stored but **not published** publicly. Admins can manually publish/unpublish via admin toggle (logged in `manual_overrides`).
+Claims marked for AI recheck are stored but **not published** publicly. The system sends them into an additional AI cycle before any publication decision, and all manual overrides stay logged in `manual_overrides`.

@@ -79,5 +79,6 @@ export type AuditAgentRaw = {
   publicExplanation: string;
   internalConcerns: string[];
   requiredHumanReviewReason?: string;
+  requiredRecheckReason?: string;
   tokenUsage?: TokenUsage;
 };

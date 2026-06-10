@@ -39,6 +39,6 @@ Copy `.env.example` to `.env.local` in each app and fill in Supabase + AI keys.
 
 Do not add live AI analysis to the public voter-facing flow.
 
-Correct: `Batch/admin pipeline → audited database result → public app reads result`
+Correct: `Batch pipeline → audited database result → public app reads result`
 
 Incorrect: `Public user opens candidate page → app calls AI model live`

@@ -18,13 +18,13 @@ The Audit Agent is stricter than both research agents.
 
 `MIN_CONFIDENCE_TO_PUBLISH = 0.72`
 
-If confidence is below threshold: `publishStatus = NEEDS_HUMAN_REVIEW`
+If confidence is below threshold: mark for an additional AI recheck cycle.
 
 ## Publish Statuses
 
 - `APPROVED` — safe to publish
 - `APPROVED_WITH_WARNINGS` — publish with caveats
-- `NEEDS_HUMAN_REVIEW` — not published in MVP (post-MVP workflow)
+- `NEEDS_RECHECK` — not published in MVP (post-MVP workflow)
 - `REJECTED` — not published
 
 The Audit Agent must not automatically average research results. It must evaluate evidence quality.

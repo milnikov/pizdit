@@ -2,11 +2,10 @@
 
 ## Overview
 
-Pizdit is a pnpm + Turborepo monorepo with two Next.js apps and shared packages.
+Pizdit is a pnpm + Turborepo monorepo with one Next.js app and shared packages.
 
 ```
 apps/web      — Public voter-facing app (no auth)
-apps/admin    — Protected admin panel (Supabase Auth)
 packages/core — Types, enums, verdict formula
 packages/db   — Supabase client, queries, migrations
 packages/ai   — AI provider abstraction, ingestion, pipeline
@@ -26,10 +25,10 @@ country-adapters/generic — Fallback adapter
 ## Data Flow
 
 ```
-Admin seeds data → Source ingestion → Claim extraction → AI pipeline → claim_checks (published) → candidate_verdicts → Public app
+Seed data and ingestion jobs → Claim extraction → AI pipeline → claim_checks (published) → candidate_verdicts → Public app
 ```
 
 ## Deployment
 
-- **Vercel**: two projects (`apps/web`, `apps/admin`)
-- **Supabase**: PostgreSQL, Auth (admin only), Storage, vector extension
+- **Vercel**: one project (`apps/web`)
+- **Supabase**: PostgreSQL, Storage, vector extension

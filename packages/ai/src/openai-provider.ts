@@ -199,7 +199,8 @@ export class OpenAIProvider implements AIProvider {
       auditSummary: raw.auditSummary,
       publicExplanation: raw.publicExplanation,
       internalConcerns: raw.internalConcerns ?? [],
-      requiredHumanReviewReason: raw.requiredHumanReviewReason,
+      requiredHumanReviewReason:
+        raw.requiredRecheckReason ?? raw.requiredHumanReviewReason,
       tokenUsage: {
         inputTokens,
         outputTokens,

@@ -37,7 +37,6 @@ The product shows upcoming elections based on a user's address, lists candidates
 
 ```
 apps/web          Public voter app
-apps/admin        Admin panel
 packages/core     Types, enums, verdict formula
 packages/db       Supabase client, migrations
 packages/ai       AI pipeline
@@ -55,7 +54,6 @@ docs/             Documentation
 ```bash
 pnpm install
 cp .env.example apps/web/.env.local
-cp .env.example apps/admin/.env.local
 # Fill in Supabase and AI keys
 
 # Run Supabase migrations (see packages/db/supabase/migrations/)
@@ -63,7 +61,6 @@ pnpm dev
 ```
 
 - Public app: http://localhost:3000
-- Admin app: http://localhost:3001
 
 ## License
 

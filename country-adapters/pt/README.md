@@ -20,7 +20,7 @@ Geocoding via Nominatim maps addresses containing "Porto" to the Porto municipal
 ## Known Limitations
 
 - No live API integration with CNE in MVP
-- Election and candidate data is admin-seeded
+- Election and candidate data is seeded via migrations/scripts
 - District boundaries are not geospatially matched (text-based fallback)
 
 ## Legal Notes

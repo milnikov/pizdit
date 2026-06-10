@@ -2,7 +2,7 @@
 
 ## Vercel (recommended)
 
-Create **two** Vercel projects from this monorepo:
+Create a Vercel project from this monorepo:
 
 ### 1. Public web app (`apps/web`)
 
@@ -10,15 +10,9 @@ Create **two** Vercel projects from this monorepo:
 - Build command: `cd ../.. && pnpm turbo build --filter=@pizdit/web`
 - Install command: `cd ../.. && pnpm install`
 
-### 2. Admin app (`apps/admin`)
-
-- Root directory: `apps/admin`
-- Build command: `cd ../.. && pnpm turbo build --filter=@pizdit/admin`
-- Install command: `cd ../.. && pnpm install`
-
 ## Environment variables
 
-Set in both Vercel projects:
+Set in the Vercel project:
 
 ```
 NEXT_PUBLIC_SUPABASE_URL=
@@ -36,7 +30,6 @@ GEOCODING_PROVIDER=nominatim
 1. Create a Supabase project
 2. Run migrations from `packages/db/supabase/migrations/`
 3. Enable the `vector` extension
-4. Create an admin user via Supabase Auth dashboard
 
 ```bash
 supabase link --project-ref <your-ref>

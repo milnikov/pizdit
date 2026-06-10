@@ -253,7 +253,7 @@ export async function runClaimCheckPipeline(claimId: string): Promise<{
         audit_result_id: audit?.id,
         reason:
           auditResult.requiredHumanReviewReason ??
-          "Audit agent flagged for human review",
+          "Audit agent flagged for additional AI recheck",
         status: "pending",
       });
     }

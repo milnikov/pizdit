@@ -1,5 +1,0 @@
-{
-  "buildCommand": "cd ../.. && pnpm turbo build --filter=@pizdit/admin",
-  "installCommand": "cd ../.. && pnpm install",
-  "framework": "nextjs"
-}

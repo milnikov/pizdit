@@ -8,7 +8,7 @@ See the `methodology/` directory:
 - [claim-rating-rules.md](../methodology/claim-rating-rules.md)
 - [audit-rules.md](../methodology/audit-rules.md)
 - [candidate-verdict-formula.md](../methodology/candidate-verdict-formula.md)
-- [human-review-rules.md](../methodology/human-review-rules.md)
+- [ai-recheck-rules.md](../methodology/ai-recheck-rules.md)
 
 ## Public vs Analytical Tone
 
