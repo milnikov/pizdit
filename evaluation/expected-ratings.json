@@ -1,0 +1,22 @@
+{
+  "pt-001": {
+    "expectedRatingRange": ["UNSUPPORTED", "MISLEADING", "FALSE"],
+    "notes": "50% housing price reduction in one year lacks budget and legal mechanism"
+  },
+  "pt-002": {
+    "expectedRatingRange": ["MISLEADING", "MIXED", "UNSUPPORTED"],
+    "notes": "Unemployment statistics require official INE data verification"
+  },
+  "pt-003": {
+    "expectedRatingRange": ["UNSUPPORTED", "MIXED", "MISLEADING"],
+    "notes": "5000 homes without tax increase needs budget details"
+  },
+  "pt-004": {
+    "expectedRatingRange": ["MISLEADING", "UNSUPPORTED", "UNVERIFIABLE"],
+    "notes": "Superlative claim about European metro efficiency"
+  },
+  "pt-005": {
+    "expectedRatingRange": ["TRUE", "MOSTLY_TRUE", "MIXED", "UNSUPPORTED"],
+    "notes": "Budget allocation claim verifiable against municipal budget documents"
+  }
+}

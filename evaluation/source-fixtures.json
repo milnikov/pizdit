@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://www.ine.pt/",
+    "title": "Instituto Nacional de Estatística",
+    "sourceType": "statistics_database",
+    "reliabilityLevel": "high",
+    "countryCode": "PT"
+  },
+  {
+    "url": "https://www.cne.pt/",
+    "title": "Comissão Nacional de Eleições",
+    "sourceType": "election_commission",
+    "reliabilityLevel": "high",
+    "countryCode": "PT"
+  }
+]

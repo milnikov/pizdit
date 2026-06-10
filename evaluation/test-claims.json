@@ -1,0 +1,37 @@
+[
+  {
+    "id": "pt-001",
+    "countryCode": "PT",
+    "claimText": "Vamos reduzir os preços da habitação em 50% num ano.",
+    "claimType": "promise",
+    "context": "Municipal election campaign promise, Porto"
+  },
+  {
+    "id": "pt-002",
+    "countryCode": "PT",
+    "claimText": "O desemprego no Porto diminuiu 40% durante o meu mandato.",
+    "claimType": "statistical",
+    "context": "Debate claim about unemployment statistics"
+  },
+  {
+    "id": "pt-003",
+    "countryCode": "PT",
+    "claimText": "Vamos construir 5000 casas novas sem aumentar impostos.",
+    "claimType": "promise",
+    "context": "Housing construction promise without tax increase"
+  },
+  {
+    "id": "pt-004",
+    "countryCode": "PT",
+    "claimText": "O metro do Porto é o mais eficiente da Europa.",
+    "claimType": "statistical",
+    "context": "Comparative claim about public transport"
+  },
+  {
+    "id": "pt-005",
+    "countryCode": "PT",
+    "claimText": "O orçamento municipal destina 30% a habitação acessível.",
+    "claimType": "statistical",
+    "context": "Budget allocation claim"
+  }
+]

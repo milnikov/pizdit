@@ -1,0 +1,19 @@
+{
+  "name": "@pizdit/adapter-pt",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@pizdit/adapters": "workspace:*",
+    "@pizdit/core": "workspace:*",
+    "@pizdit/db": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
