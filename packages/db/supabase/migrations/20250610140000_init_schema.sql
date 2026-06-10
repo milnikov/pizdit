@@ -76,7 +76,7 @@ create table candidates (
   official_website_url text,
   social_urls text[] default '{}',
   short_bio text,
-  current_role text,
+  "current_role" text,
   previous_roles text[] default '{}',
   district_name text,
   source_language text,

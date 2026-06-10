@@ -6,6 +6,19 @@ import { NextResponse } from "next/server";
 
 registerAdapter(portugalAdapter);
 
+function getErrorMessage(error: unknown): string {
+  if (error instanceof Error) return error.message;
+  if (
+    typeof error === "object" &&
+    error !== null &&
+    "message" in error &&
+    typeof (error as { message: unknown }).message === "string"
+  ) {
+    return (error as { message: string }).message;
+  }
+  return "Geocoding failed";
+}
+
 export async function POST(request: Request) {
   try {
     const { address } = (await request.json()) as { address?: string };
@@ -27,6 +40,7 @@ export async function POST(request: Request) {
         );
       }
 
+      // Cache writes are best-effort; geocoding should still work if cache storage fails.
       await setGeocodingCache({
         normalizedAddressHash: hash,
         countryCode: result.countryCode,
@@ -37,7 +51,7 @@ export async function POST(request: Request) {
         longitude: result.longitude,
         provider: result.provider,
         rawResult: result.rawResult,
-      });
+      }).catch(() => null);
 
       geo = {
         country_code: result.countryCode,
@@ -62,7 +76,7 @@ export async function POST(request: Request) {
       elections,
     });
   } catch (e) {
-    const message = e instanceof Error ? e.message : "Geocoding failed";
+    const message = getErrorMessage(e);
     return NextResponse.json({ error: message }, { status: 500 });
   }
 }

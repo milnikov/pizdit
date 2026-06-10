@@ -1,5 +1,4 @@
-[project]
-id = "pizdit"
+project_id = "pizdit"
 
 [api]
 enabled = true

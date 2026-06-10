@@ -69,19 +69,19 @@ begin
   values ('PT', 'Bloco de Esquerda', 'BE', 'https://www.bloco.pt/')
   returning id into v_party_be;
 
-  insert into candidates (election_id, country_code, full_name, party_name, party_id, is_independent, short_bio, current_role, source_language)
+  insert into candidates (election_id, country_code, full_name, party_name, party_id, is_independent, short_bio, "current_role", source_language)
   values (v_election_id, 'PT', 'Ana Silva', 'Partido Socialista', v_party_ps, false, 'Former city councillor focused on housing policy.', 'City Councillor', 'pt')
   returning id into v_cand_anna;
 
-  insert into candidates (election_id, country_code, full_name, party_name, party_id, is_independent, short_bio, current_role, source_language)
+  insert into candidates (election_id, country_code, full_name, party_name, party_id, is_independent, short_bio, "current_role", source_language)
   values (v_election_id, 'PT', 'João Costa', 'Partido Social Democrata', v_party_psd, false, 'Business owner and transport policy advocate.', 'Entrepreneur', 'pt')
   returning id into v_cand_joao;
 
-  insert into candidates (election_id, country_code, full_name, party_name, party_id, is_independent, short_bio, current_role, source_language)
+  insert into candidates (election_id, country_code, full_name, party_name, party_id, is_independent, short_bio, "current_role", source_language)
   values (v_election_id, 'PT', 'Maria Santos', 'Bloco de Esquerda', v_party_be, false, 'Housing rights activist and community organizer.', 'Community Organizer', 'pt')
   returning id into v_cand_maria;
 
-  insert into candidates (election_id, country_code, full_name, is_independent, short_bio, current_role, source_language)
+  insert into candidates (election_id, country_code, full_name, is_independent, short_bio, "current_role", source_language)
   values (v_election_id, 'PT', 'Carlos Mendes', true, 'Independent candidate focused on fiscal transparency.', 'Accountant', 'pt')
   returning id into v_cand_carlos;
 
